@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import { Dialog, DialogPanel } from '@headlessui/react';
-import viteLogo from '/vite.svg'
+import viteLogo from 'https://tint.creativemarket.com/2P98ZkNFSS421kdApheX3MnuQWKtEuGiBHKZi--VzvQ/width:1820/height:1214/gravity:nowe/rt:fill-down/el:1/czM6Ly9maWxlcy5jcmVhdGl2ZW1hcmtldC5jb20vaW1hZ2VzL3NjcmVlbnNob3RzL3Byb2R1Y3RzLzYzNi82MzYzLzYzNjM5NzMvbG9nby10ZW1wbGF0ZS00MC1vLmpwZw'
+
 
 const navigation = [
   { name: 'Product', href: '#' },
@@ -157,6 +158,12 @@ function App() {
       </div>
     </div>
 
+    <div className="App">
+      <h1></h1>
+      <img src='https://tint.creativemarket.com/2P98ZkNFSS421kdApheX3MnuQWKtEuGiBHKZi--VzvQ/width:1820/height:1214/gravity:nowe/rt:fill-down/el:1/czM6Ly9maWxlcy5jcmVhdGl2ZW1hcmtldC5jb20vaW1hZ2VzL3NjcmVlbnNob3RzL3Byb2R1Y3RzLzYzNi82MzYzLzYzNjM5NzMvbG9nby10ZW1wbGF0ZS00MC1vLmpwZw' alt="A beautiful scene" />
+    </div>
+
+  
     </>
   )
 }
