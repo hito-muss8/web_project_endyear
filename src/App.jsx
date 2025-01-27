@@ -1,14 +1,12 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import { Dialog, DialogPanel } from '@headlessui/react';
-import viteLogo from 'https://tint.creativemarket.com/2P98ZkNFSS421kdApheX3MnuQWKtEuGiBHKZi--VzvQ/width:1820/height:1214/gravity:nowe/rt:fill-down/el:1/czM6Ly9maWxlcy5jcmVhdGl2ZW1hcmtldC5jb20vaW1hZ2VzL3NjcmVlbnNob3RzL3Byb2R1Y3RzLzYzNi82MzYzLzYzNjM5NzMvbG9nby10ZW1wbGF0ZS00MC1vLmpwZw'
 
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'About', href: '#' },
+  { name: 'achievement', href: '#' },
+  { name: 'Experience', href: '#' },
 ]
 function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -17,7 +15,7 @@ function App() {
     <>
     <div className="bg-white w-full">
       <header className="absolute inset-x-0 top-0 z-50">
-        <nav aria-label="Global" className="flex items-center justify-between m-5 lg:px-8">
+        <nav aria-label="Global" className="flex items-centre justify-between m-5 lg:px-10">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
@@ -112,25 +110,24 @@ function App() {
             className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
           />
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-          <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-65">
+          <div className="hidden sm:mb-8 sm:flex sm:justify-left">
             <div className="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              Announcing our next round of funding.{' '}
+              Ingin tau lebih banyak? kunjungi berikut {' '}
               <a href="#" className="font-semibold text-indigo-600">
                 <span aria-hidden="true" className="absolute inset-0" />
                 Read more <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
           </div>
-          <div className="text-center">
+          <div className="text-left">
             <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
-              Website Project End year Edited By Divar
+              Hi! I'm Hito Mustaqim
             </h1>
             <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-              fugiat veniam occaecat.
+              Aku adalah seorang pelajar di Indonesia
             </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
+            <div className="mt-4 flex items-left justify-left gap-x-6">
               <a
                 href="#"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
